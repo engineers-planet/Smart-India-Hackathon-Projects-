@@ -3,7 +3,7 @@
     <img src="https://github.com/saRvaGnyA/ReachOut/raw/main/client/src/Logos/Logo2.png" alt="ReachOut" width="250" height="250">
   </a>
   <br>
-  ReachOut
+  Real-time Emergency Response System
 </h1>
  
 <div align="center">
