@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "193206674602",
+    "project_id": "sih-raamen",
+    "storage_bucket": "sih-raamen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193206674602:android:1bd5f4bfa1b6c23f4f5cd3",
+        "android_client_info": {
+          "package_name": "com.raamen.sih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193206674602-1rjvisfeng8j3jepoiij9mt6ujn44d64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC5WJqKJMRIFbOu5tYQ5dCd8K-0xMY8Ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193206674602-1rjvisfeng8j3jepoiij9mt6ujn44d64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
