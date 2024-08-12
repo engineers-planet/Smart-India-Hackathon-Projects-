@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cls-1 {
+  fill: #d6b49a;
+}
+
+.cls-1,
+.cls-10,
+.cls-11,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-17,
+.cls-2,
+.cls-4,
+.cls-5,
+.cls-6 {
+  stroke: #000;
+}
+
+.cls-1,
+.cls-11,
+.cls-13,
+.cls-14,
+.cls-16,
+.cls-8 {
+  stroke-linecap : round;
+  stroke-linejoin: round;
+}
+
+.cls-1,
+.cls-10,
+.cls-11,
+.cls-12,
+.cls-13,
+.cls-14,
+.cls-15,
+.cls-16,
+.cls-17,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke-width: 3px;
+}
+
+.cls-2 {
+  fill: #020202;
+}
+
+.cls-10,
+.cls-12,
+.cls-15,
+.cls-17,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-9 {
+  stroke-miterlimit: 10;
+}
+
+.cls-3 {
+  fill: #818181;
+}
+
+.cls-12,
+.cls-16,
+.cls-3,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke: #191818;
+}
+
+.cls-4 {
+  fill: #dcdbda;
+}
+
+.cls-5 {
+  fill: #4ea7f1;
+}
+
+.cls-14,
+.cls-6 {
+  fill: #f8f3ed;
+}
+
+.cls-16,
+.cls-7 {
+  fill: #333;
+}
+
+.cls-13,
+.cls-8 {
+  fill: none;
+}
+
+.cls-9 {
+  fill: #f8f59c;
+}
+
+.cls-10,
+.cls-11 {
+  fill: #f3d2c9;
+}
+
+.cls-15 {
+  fill: #8bb174;
+}
+
+.cls-17 {
+  fill: #da4e22;
+}
+
+.floating-btn {
+  width          : 60px;
+  height         : 60px;
+  background     : dodgerblue;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius  : 50%;
+  color          : #ffffff;
+  font-size      : 40px;
+  box-shadow     : 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position       : fixed;
+  right          : 40px;
+  bottom         : 60px;
+  transition     : background 0.25s;
+}
+
+.floating-btn-1 {
+  width          : 60px;
+  height         : 60px;
+  background     : rgba(243, 228, 17, 0.769);
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius  : 50%;
+  color          : #ffffff;
+  font-size      : 40px;
+  box-shadow     : 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position       : fixed;
+  right          : 40px;
+  bottom         : 130px;
+  transition     : background 0.25s;
+}
+
+.floating-btn-2 {
+  width          : 60px;
+  height         : 60px;
+  background     : greenyellow;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius  : 50%;
+  color          : #ffffff;
+  font-size      : 40px;
+  box-shadow     : 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position       : fixed;
+  right          : 40px;
+  bottom         : 200px;
+  transition     : background 0.25s;
+}
+
+.floating-btn-3 {
+  width          : 60px;
+  height         : 60px;
+  background     : rgb(255, 49, 83);
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius  : 50%;
+  color          : #ffffff;
+  font-size      : 40px;
+  box-shadow     : 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position       : fixed;
+  right          : 40px;
+  bottom         : 270px;
+  transition     : background 0.25s;
+}
+
+.floating-btn:active {
+  background: #007d63;
+}
+
+.font1 {
+  font-family: sans-serif;
+}
+
+.font2 {
+  font-family: 'Open-Dyslexic', monospace;
+}
+
+#fontSize1 {
+  font-size: medium;
+}
+
+#fontSize2 {
+  font-size: large;
+}
+
+#fontSize3 {
+  font-size: larger;
+}
+
+#fontSize4 {
+  font-size: x-large;
+}
+
+#fontSize5 {
+  font-size: xx-large;
+}
+
+#dropdownRadioHelper {}
+
+.floating-popup {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  text-decoration: none;
+  position       : fixed;
+  left           : 30%;
+  right          : 30%;
+  top            : 30%;
+  bottom         : 30%;
+  transition     : background 0.25s;
+}
+
+.floating-videoCam {
+  width          : 150px;
+  height         : 150px;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius  : 10%;
+  color          : #ffffff;
+  font-size      : 40px;
+  box-shadow     : 2px 2px 5px rgba(0, 0, 0, 0.25);
+  position       : fixed;
+  right          : 20px;
+  bottom         : 20px;
+  transition     : background 0.25s;
+}
+
+#flip-horizontal {
+  -moz-transform   : scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform     : scaleX(-1);
+  transform        : scaleX(-1);
+  -ms-filter       : fliph;
+  /*IE*/
+  filter           : fliph;
+  /*IE*/
+}

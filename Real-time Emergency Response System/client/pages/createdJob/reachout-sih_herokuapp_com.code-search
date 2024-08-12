@@ -1,0 +1,145 @@
+# Query: reachout-sih.herokuapp.com
+# ContextLines: 1
+
+31 results - 17 files
+
+README.md:
+  81  ### Backend (Heroku)
+  82: - [ReachOut Server](https://reachout-sih.hasura.app/)
+  83  - [ReachOut Gesture Detection Model Deployment](https://reachout-gesture-api.herokuapp.com/)
+
+client\components\PopUpModals\PopUpModalConfirm.js:
+  24      const response = await fetch(
+  25:       'https://reachout-sih.hasura.app/v1/graphql',
+  26        {
+
+client\components\PopUpModals\PopUpModalJobs.js:
+  17      const response = await fetch(
+  18:       'https://reachout-sih.hasura.app/v1/graphql',
+  19        {
+
+client\components\PopUpModals\PopUpModalScheme.js:
+  17      const response = await fetch(
+  18:       'https://reachout-sih.hasura.app/v1/graphql',
+  19        {
+
+client\components\Profiles\CompanyProfile.js:
+   48      const response = await fetch(
+   49:       'https://reachout-sih.hasura.app/v1/graphql',
+   50        {
+
+  128      const response = await fetch(
+  129:       'https://reachout-sih.hasura.app/v1/graphql',
+  130        {
+
+client\components\Profiles\UserProfile.js:
+   53      const response = await fetch(
+   54:       'https://reachout-sih.hasura.app/v1/graphql',
+   55        {
+
+  190      const response = await fetch(
+  191:       'https://reachout-sih.hasura.app/v1/graphql',
+  192        {
+
+client\pages\createdJobs.js:
+  34      const response = await fetch(
+  35:       'https://reachout-sih.hasura.app/v1/graphql',
+  36        {
+
+client\pages\createdSchemes.js:
+  24      const response = await fetch(
+  25:       'https://reachout-sih.hasura.app/v1/graphql',
+  26        {
+
+client\pages\createJob.js:
+  33      const response = await fetch(
+  34:       'https://reachout-sih.hasura.app/v1/graphql',
+  35        {
+
+client\pages\createScheme.js:
+  22      const response = await fetch(
+  23:       'https://reachout-sih.hasura.app/v1/graphql',
+  24        {
+
+client\pages\enrolledJobs.js:
+   40      const response = await fetch(
+   41:       'https://reachout-sih.hasura.app/v1/graphql',
+   42        {
+
+   84      const response = await fetch(
+   85:       'https://reachout-sih.hasura.app/v1/graphql',
+   86        {
+
+  128      const response = await fetch(
+  129:       'https://reachout-sih.hasura.app/v1/graphql',
+  130        {
+
+client\pages\enrolledSchemes.js:
+   38      const response = await fetch(
+   39:       'https://reachout-sih.hasura.app/v1/graphql',
+   40        {
+
+   80      const response = await fetch(
+   81:       'https://reachout-sih.hasura.app/v1/graphql',
+   82        {
+
+  122      const response = await fetch(
+  123:       'https://reachout-sih.hasura.app/v1/graphql',
+  124        {
+
+client\pages\governmentLogin.js:
+  26      const response = await fetch(
+  27:       'https://reachout-sih.hasura.app/v1/graphql',
+  28        {
+
+client\pages\jobs.js:
+  23      const response = await fetch(
+  24:       'https://reachout-sih.hasura.app/v1/graphql',
+  25        {
+
+  89      const response = await fetch(
+  90:       'https://reachout-sih.hasura.app/v1/graphql',
+  91        {
+
+client\pages\schemes.js:
+  21      const response = await fetch(
+  22:       'https://reachout-sih.hasura.app/v1/graphql',
+  23        {
+
+  76      const response = await fetch(
+  77:       'https://reachout-sih.hasura.app/v1/graphql',
+  78        {
+
+client\pages\createdJob\[...id].js:
+  31      const response = await fetch(
+  32:       'https://reachout-sih.hasura.app/v1/graphql',
+  33        {
+
+  65      const response = await fetch(
+  66:       'https://reachout-sih.hasura.app/v1/graphql',
+  67        {
+
+  93      const response = await fetch(
+  94:       'https://reachout-sih.hasura.app/v1/graphql',
+  95        {
+
+client\pages\createdScheme\[...id].js:
+   41      const response = await fetch(
+   42:       'https://reachout-sih.hasura.app/v1/graphql',
+   43        {
+
+   69      const response = await fetch(
+   70:       'https://reachout-sih.hasura.app/v1/graphql',
+   71        {
+
+  120      const response = await fetch(
+  121:       'https://reachout-sih.hasura.app/v1/graphql',
+  122        {
+
+  181      const response = await fetch(
+  182:       'https://reachout-sih.hasura.app/v1/graphql',
+  183        {
+
+  241      const response = await fetch(
+  242:       'https://reachout-sih.hasura.app/v1/graphql',
+  243        {

@@ -1,0 +1,27 @@
+{
+  "name": "Hasura GraphQL Engine",
+  "description": "Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control and webhook triggers for async business logic.",
+  "logo": "https://storage.googleapis.com/hasura-graphql-engine/console/assets/favicon.png",
+  "keywords": [
+    "database",
+    "api",
+    "graphql",
+    "heroku",
+    "postgres",
+    "hasura"
+  ],
+  "success_url": "/console",
+  "website": "https://hasura.io",
+  "repository": "https://github.com/hasura/graphql-engine-heroku",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ]
+}
