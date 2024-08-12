@@ -33,7 +33,7 @@
 <table>
   <tr>
     <td>
-Our idea “ReachOut” aims to build a progressive web app that makes access for the specially abled to government schemes expeditious and empowers them
+Our idea “Real-time Emergency Response System” aims to build a progressive web app that makes access for the specially abled to government schemes expeditious and empowers them
 <br><br>
       The <i>key features</i> of <strong>ReachOut</strong>:
       <ul>
@@ -71,7 +71,7 @@ The web-app has 3 access levels implemented
 
 ### Frontend (Vercel)
 
-- [**ReachOut**](https://reach-out-sih-prototype.vercel.app/) 🚀
+- [**Real-time Emergency Response System**](https://reach-out-sih-prototype.vercel.app/) 🚀
 
 ### Assets
 
