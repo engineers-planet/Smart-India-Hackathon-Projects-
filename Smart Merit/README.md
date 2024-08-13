@@ -1,6 +1,3 @@
-# Team : DigIndia (11702)
-
-Smart India Hackathon 2018
 
 Identification of meritorious students in primary education
 
