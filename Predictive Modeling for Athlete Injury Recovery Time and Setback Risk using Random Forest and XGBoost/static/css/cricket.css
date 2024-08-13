@@ -1,0 +1,58 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  }
+
+#logo {
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+  text-decoration: none;
+  text-transform: uppercase;
+ 
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-shadow: #EDEDED 3px 2px 0;
+  position: relative;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

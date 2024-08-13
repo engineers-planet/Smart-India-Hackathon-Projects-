@@ -1,0 +1,269 @@
+{% extends "layout.html" %}
+
+{% block style %}
+{% endblock %}
+
+
+{% block nav1 %}
+<div class="container-fluid top-nav">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div id="google_translate_element"></div>
+			</div>
+			<div class="col-sm-4">
+				<p style="margin-top: 10px;text-align: center;color: white"><i class="fa fa-phone "></i> 1800-200-2244 | <i class="fa fa-envelope "></i>
+					info@govt.com</p>
+			</div>
+			<div class="col-sm-4">
+				<ul class="login-icon">
+					<li style="border-right: 2px solid white">
+						<a href="{{ url_for('signin') }}"><span class="fa fa-sign-in">&nbspLogin</span></a-->
+					</li>
+					<li>
+						<a href="{{ url_for('signup') }}"><span class="fa fa-edit">&nbspRegister</span></a-->
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+
+{% block nav4 %}
+<nav>
+	<div class="container-fluid main_navbar" id="nav">
+		<div class="row">
+			<ul class="main-icons">
+				<li class="active"><a href="{{ url_for('selection') }}">Selection Process</a></li>
+				<li><a href="{{ url_for('equipment') }}">Sports Equipment</a></li>
+				<li><a href="{{ url_for('injury_remedies') }}">Injuries Remedies</a></li>
+				<li><a href="{{ url_for('portfolio') }}">Player Portfolio</a></li>
+				<li><a href="{{ url_for('onlinecoaching') }}">Online Coaching</a></li>
+				<li><a href="{{ url_for('academy') }}">Academy Data</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+{% endblock %}
+
+<!--carusel-->
+{% block containt %}
+<div class="container-fluid" style="background-color: black">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="overlay"></div>
+				<img class="d-block w-100" src="static/images/slider_img1.JPG" alt="First slide">
+
+				<div class="carousel-caption d-none d-md-block" style="color: white">
+					<h2>Khelega India Tabhi To Badhega India !</h4>
+						<p>Keep Growing and Shaking the World....</p>
+						<img src="static/images/modi.png" style="width: 230px;height:150px" align="left">
+						<p><b>Narendra Modi</b> <br>Prime Minister of India</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="overlay"></div>
+				<img class="d-block w-100" src="static/images/slider_img2.JPG" alt="Second slide">
+				<div class="carousel-caption d-none d-md-block">
+
+					<h3>Give Atleast a Single Try to Your Soul to Make it Large !</h5>
+						<p>Never turn back, always move ahead..</p>
+						<img src="static/images/jordan.png" style="width: 250px;height:180px" align="left">
+						<p><b>Michael Jordan</b> <br>basketBall Player</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="overlay"></div>
+				<img class="d-block w-100" src="static/images/khelo.png" alt="Third slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h3>Never Give-up Until Your Soul Comes Out</h5>
+						<p>Always moving ahead ....</p>
+
+						<img src="static/images/rajiv.png" style="width: 230px;height:150px" align="left">
+						<p><b>Rajeev Dixit</b> <br>Krantikari</p>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+</div>
+<!--side navbar-->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3" style="margin-top:30px">
+			<div class="row">
+
+				<ul style="" class="vertical-icons">
+					<li style="background-color:orange"><i class="fa fa-bullhorn" style="font-size: 20px">&nbsp&nbsp&nbspLatest
+							Updates</i></li>
+					<li class="active"><a href="{{ url_for('tournament') }}">Local Tournament</a></li>
+					<li><a class="drop" href="{{ url_for('job') }}">Job Vacancies</a></li>
+					<li><a href="#">Latest Investment Field</a></li>
+					<li><a href="{{ url_for('injury_recovery') }}">Injury Recovery</a></li>
+					<li><a href="#">Photo Gallery</a></li>
+					<li><a class="drop" href="#">Query & Feedback</a></li>
+				</ul>
+
+			</div>
+			<div class="row">
+				<ul class="vertical-icons">
+
+					<li style="background-color:green"><i class="fa fa-bullhorn" style="font-size: 20px">&nbsp&nbsp&nbspNotification</i></li>
+					<li class="active"><a href="index.html">Selection Process </a></li>
+					<li><a class="drop" href="{{ url_for('sportcategory') }}">Sportswise Category </a></li>
+					<li><a href="">Injuries Remedies</a></li>
+					<li><a href="#"> Player Portfolio</a></li>
+					<li><a href="#"> Online Coaching</a></li>
+					<li><a class="drop" href="#"> Academy Data</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-5" style="margin:30px;background: url(images);">
+			<h4>About-Us</h4>
+			<p style="text-align: justify;">
+				The importance of sports and fitness in one’s life is invaluable. Playing sports inculcates team spirit, develops
+				strategic & analytical thinking, leadership skills, goal setting and risk taking. A fit and healthy individual
+				leads to an equally healthy society and strong nation.
+
+				Sports is an extremely important component for the overall development of our nation. India, in the last few years
+				has made steady progress in the field of sports. This tremendous potential needs to be showcased at a global
+				platform. It’s time we inspire young talent, give them top-notch infrastructure and training of the highest level.
+				We need to inculcate a strong spirit of participation in sports that enables players to demonstrate their true
+				potential. Only then can India realise its dream of becoming a sports super power.
+
+				The Khelo India programme has been introduced to revive the sports culture in India at the grass-root level by
+				building a strong framework for all sports played in our country and establish India as a great sporting nation.<br><br>
+				The importance of sports and fitness in one’s life is invaluable. Playing sports inculcates team spirit, develops
+				strategic & analytical thinking, leadership skills, goal setting and risk taking. A fit and healthy individual
+				leads to an equally healthy society and strong nation.<br><br>
+
+			</p>
+		</div>
+		<div class="col-sm-3" style="margin-top: 30px">
+			<div class="imagebox">
+				<a href="#hola">
+					<img src="static/images/images1.jpg" style="width: 100%;height: 200px" class="category-banner img-responsive">
+					<span class="imagebox-desc">Khelo India Ended ! </span>
+				</a>
+
+			</div>
+			<div class="imagebox">
+				<a href="#hola">
+					<img src="static/images/ipl.jpg" style="width: 100%;height: 200px" class="category-banner img-responsive">
+					<span class="imagebox-desc">IPL now gonna rock! </span>
+				</a>
+			</div>
+			<div class="imagebox">
+				<a href="#hola">
+					<img src="static/images/download.jpg" style="width: 100%;height: 200px" class="category-banner img-responsive">
+					<span class="imagebox-desc">pro kabaddi league begins here! </span>
+				</a>
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
+<!--graph-->
+<div class="container-fluid" style="">
+	<center>
+		<h3 style="text-decoration: underline;"> Analysis of Women Particiaption</h>
+	</center>
+	<div class="row" style="margin-top: 20px">
+		<div class="col-sm-5">
+			<div id="piechart" style="margin-left: 100px"></div>
+		</div>
+		<div class="col-sm-2">
+			<div>
+				<h2 align="center" style="margin-top: 60px">Moving Every Possible <br>Step <br>Ahead...</h2>
+			</div>
+		</div>
+		<div class="col-sm-5">
+			<div id="chartContainer" style="height: 250px;width: 400px; margin-top: 60px;margin-left: 50px"></div>
+
+		</div>
+
+	</div>
+
+
+
+</div>
+<!--testimonial-->
+<div class="container-fluid" style="">
+
+	<center>
+		<h3 style="text-decoration: underline;">Testimonials</h4>
+	</center><br><br>
+	<div class="row" style="border-bottom: 2px solid black">
+		<div class="col-sm-2">
+
+			<img src="static/images/quote.png" style="width: 100px;height: 80px" align="right">
+		</div>
+		<div class="col-sm-8" style="border-right: 2px solid black">
+			<p style="text-align: justify;">
+				Sports is an extremely important component for the overall development of our nation. India, in the last few years
+				has made steady progress in the field of sports. This tremendous potential needs to be showcased at a global
+				platform. It’s time we inspire young talent, give them top-notch infrastructure and training of the highest level.
+				We need to inculcate a strong spirit of participation in sports that enables players to demonstrate their true
+				potential.
+
+			</p>
+
+			<p align="right"><b>Mahendra Singh Dhoni</b> <br> <img src="static/images/flag.png" style="width: 30px;height: 20px;">&nbspMember
+				Team India</p>
+
+
+
+		</div>
+
+		<div class="col-sm-2">
+
+			<img src="static/images/dhoni.png" style="width: 200px;height: 150px;margin-top: 30px" align="left">
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+
+
+{% block script %}
+<script src="static/javascript/graph.js"></script>
+<script type="text/javascript">
+	// Load google charts
+	google.charts.load('current', { 'packages': ['corechart'] });
+	google.charts.setOnLoadCallback(drawChart);
+
+	// Draw the chart and set the chart values
+	function drawChart() {
+		var data = google.visualization.arrayToDataTable([
+			['Participation in Sports', ''],
+			['Women', 10950],
+			['Men', 35760],
+
+		]);
+
+		// Optional; add a title and set the width and height of the chart
+		var options = { 'title': 'Women Power in Sports', 'width': 550, 'height': 400 };
+
+		// Display the chart inside the <div> element with id="piechart"
+		var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+		chart.draw(data, options);
+	}
+</script>
+{% endblock %}

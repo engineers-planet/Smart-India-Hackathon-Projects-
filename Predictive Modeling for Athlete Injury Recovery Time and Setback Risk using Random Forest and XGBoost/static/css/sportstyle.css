@@ -1,0 +1,301 @@
+
+
+.login-icon
+{
+    list-style-type: none;
+    width: 100%
+
+}
+.top-nav
+{
+    background-color: green;
+    
+}
+
+.login-icon li
+{
+    float: left;
+    width: 25%;
+    padding: 10px
+}
+
+.login-icon li a,i
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px 
+
+
+}
+
+.main_navbar
+{
+    background-color: orange;
+    height: 45px;
+}
+.main-icons
+{
+    list-style-type: none;
+    width: 100%;
+    
+
+
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #080d15;
+    opacity: .5;
+}
+
+.main-icons li
+{
+    float: left;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    border-right: 2px solid white;
+}
+
+.main-icons li a 
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+.carousel-item img
+{
+    width: 100%;
+    height:400px
+}
+
+.vertical-icons
+{
+    list-style-type: none;
+    width: 100%;
+    
+
+
+
+}
+
+.vertical-icons li
+{
+    
+    width: 100%;
+    text-align: center;
+    padding:10px;
+        position: relative;
+        border-radius: 5px;
+        font-weight: 500;
+
+        background-color: #f5f5f5;
+}
+
+.vertical-icons li a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 30px 0;
+}
+
+i,
+span {
+    display: inline-block;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+
+    
+}
+.main {
+  margin-left: 30px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #E2E2EF;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+#sidebar.active .sidebar-header h3,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+    display: block;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#sidebar.active ul ul a {
+    padding: 10px !important;
+}
+
+
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+
+}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+.blinktext
+{
+animation: blinkinga 2s infinite;
+}
+@keyframes blinkinga
+{
+      0% {  color:#3CEE11;  }
+  100% { color: #2D8C16; }
+
+}
+

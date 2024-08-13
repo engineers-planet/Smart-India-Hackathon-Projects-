@@ -1,0 +1,61 @@
+
+.column1{
+    background-color: #F2F4F4  ;
+    
+}
+#logo {
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+  text-decoration: none;
+  text-transform: uppercase;
+ 
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-shadow: #EDEDED 3px 2px 0;
+  position: relative;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: -100;
+
+  top: 10;
+  left: 0;
+  padding-left: 50px;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  z-index:-100;
+  position:absolute;/* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.wrapper
+{
+      box-shadow: 1px 1px 1px 1px;
+      margin-top: 10px;
+      padding:10px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
