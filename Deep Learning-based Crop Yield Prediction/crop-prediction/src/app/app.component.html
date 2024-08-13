@@ -1,0 +1,265 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AgroB</title>
+  <base name="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Mono:300" rel="stylesheet">
+</head>
+<body>
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Corn Yield Prediction App</span>
+    <span class="cern-spacer"></span>
+    <mat-icon class="cern-icon">verified_user</mat-icon>
+    <mat-icon class="cern-icon">favorite</mat-icon>
+    <a aria-label="GitHub Repository" class="docs-button docs-navbar-show-small mat-icon-button" href="https://github.com/vipulroxx/crop-prediction" mat-icon-button="" tabindex="0" aria-disabled="false"><span class="mat-button-wrapper"><img _ngcontent-c1="" alt="angular" class="docs-angular-logo" src="../../../assets/img/homepage/github-circle-white-transparent.svg"></span><div class="mat-button-ripple mat-ripple mat-button-ripple-round" matripple=""></div><div class="mat-button-focus-overlay"></div></a>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<h3>{{precipitation}}</h3>
+<mat-card color="primary" class="cern-card">
+  <mat-card-header>
+    <div mat-card-avatar class="cern-header-image"></div>
+    <mat-card-title><strong>AgroB</strong></mat-card-title>
+    <mat-card-subtitle><strong>Agriculture made smart</strong></mat-card-subtitle>
+    <span class="cern-spacer"></span>
+    <i class="material-icons">bookmark_border</i>
+  </mat-card-header>
+  <img mat-card-image src="../../../assets/img/homepage/AgroB.jpg" alt="Image of Higgs Boson">
+  <mat-card-content>
+    <mat-tab-group dynamicHeight>
+      <mat-tab label="Brief">
+        <div class="cern-small-box mat-elevation-z4">
+          Agriculture is the act, the hard work, the toil put in my the farmers to put food in our plates, braving the nature and its wrath. <br> <br>
+          AgroB helps these farmers battle aberrant monsoons, floods, droughts and other extremes. Also largely helping in policy formation of contingent planning.
+        </div><br>
+        <mat-chip-list>
+          <mat-chip color="accent" selected>Agriculture</mat-chip>
+          <mat-chip color="accent" selected>Adverse Climate</mat-chip>
+        </mat-chip-list>
+      </mat-tab>
+      <mat-tab label="Problem Statement">
+        <div class="cern-large-box mat-elevation-z4">
+          Estimation of crop progression particularly in rainy season much crop may be severally by abberant Monsoon/flood/drought and immediate response is needed to help farmers (This will help in policy formation of contingent planning etc.
+        </div><br>
+        <mat-chip-list>
+          <mat-chip color="accent" selected>ATLAS</mat-chip>
+          <mat-chip color="accent" selected>Large Hadron Collider</mat-chip>
+        </mat-chip-list>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>
+
+<mat-card color="primary" class="data-analysis-card">
+  <mat-card-header>
+    <div mat-card-avatar class="cern-header-image"></div>
+    <mat-card-title><strong>Incomplete Values</strong></mat-card-title>
+    <mat-card-subtitle><strong>Dataset Analysis</strong></mat-card-subtitle>
+    <span class="cern-spacer"></span>
+    <i class="material-icons">bookmark_border</i>
+  </mat-card-header>
+  <img mat-card-image src="../../../assets/img/graphs/incomplete-values/graph.jpeg" alt="Image of Incomplete values">
+  <mat-card-content>
+    <mat-tab-group dynamicHeight>
+      <mat-tab label="DATASET ANALYSIS">
+        <div class="cern-small-box mat-elevation-z4">
+          The data set we have used here consists of data metrics of five most important agricultural states of India including Bihar where the parameters include : Rainfall, Minimum Temperature, Maximum Temperature, Cloud Cover, Vapour Pressure, Reference Crop Evapotransporation and Potential Evapotransporation.<br> <br> The following parameter data is taken from all twelve months for a period of 1901 to 2002. This data set is then transposed to project the month on our column so we may be able to extract all the month details at once, given a particular year and state name. The data is then used to train our deep learning model to predict rainfall in future event based on the listed parameters and thus estimate and predict the crop progression and yield in the future by extrapolation of data by the learning network.
+        </div><br>
+        <mat-chip-list>
+          <mat-chip color="accent" selected>twelve months</mat-chip>
+          <mat-chip color="accent" selected>6 features and 1 target feature</mat-chip>
+        </mat-chip-list>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>
+
+<mat-card color="primary" class="data-analysis-card">
+  <mat-card-header>
+    <div mat-card-avatar class="neural-net-header-image"></div>
+    <mat-card-title><strong>Neural Network</strong></mat-card-title>
+    <mat-card-subtitle><strong>MACHINE LEARNING</strong></mat-card-subtitle>
+    <span class="cern-spacer"></span>
+    <a style = "color: white; text-decoration: none;" href="https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.31837&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false">Play with Neural Networks!!</a>
+  </mat-card-header>
+  <img mat-card-image id="card-image" src="../../../assets/img/neural-net-diagrams/nn.png" alt="Image of Neural Network">
+  <mat-card-content>
+    <mat-tab-group dynamicHeight>
+      <mat-tab label="Brief">
+        <div class="cern-small-box mat-elevation-z4">
+          An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information. The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. Moreover its advantages include adaptive learning, self organization, real time operation using parallel computation and fault tolerance via redundant information coding.
+        </div><br>
+        <mat-chip-list>
+          <mat-chip color="accent" selected>ANN</mat-chip>
+          <mat-chip color="accent" selected>Information Processing</mat-chip>
+        </mat-chip-list>
+      </mat-tab>
+      <mat-tab label="History">
+        <div class="cern-large-box mat-elevation-z4">
+          The first artificial neuron was produced in 1943 by the neurophysiologist Warren McCulloch and the logician Walter Pits. But the technology available at that time did not allow them to do too much. Neural network simulations appear to be a recent development. However, this field was established before the advent of computers, and has survived at least one major setback and several eras. Many import and advances have been boosted by the use of inexpensive computer emulations. Following an initial period of enthusiasm, the field survived a period of frustration and disrepute. During this period when funding and professional support was minimal, important advances were made by relatively few researchers. These pioneers were able to develop convincing technology which surpassed the limitations identified by Minsky and Papert.
+        </div><br>
+        <mat-chip-list>
+          <mat-chip color="accent" selected>1943 MCP </mat-chip>
+          <mat-chip color="accent" selected>Minsky and Papert</mat-chip>
+        </mat-chip-list>
+      </mat-tab>
+      <mat-tab label="NEURON">
+        <div class="cern-large-box mat-elevation-z4">
+          An artificial neuron is a device with many inputs and one output. The neuron has two modes of operation; the training mode and the using mode. In the training mode, the neuron can be trained to fire (or not), for particular input patterns. In the using mode, when a taught input pattern is detected at the input, its associated output becomes the current output. If the input pattern does not belong in the taught list of input patterns, the firing rule is used to determine whether to fire or not.
+        </div><br>
+        <mat-chip-list>
+          <mat-chip color="accent" selected>Many inputs and One output</mat-chip>
+          <mat-chip color="accent" selected>Training and Firing</mat-chip>
+        </mat-chip-list>
+      </mat-tab>
+      <mat-tab label="Description">
+        <div class="cern-large-box mat-elevation-z4">
+          A more sophisticated neuron is the McCulloch and Pitts model (MCP). The difference from the previous model is that the inputs are 'weighted', the effect that each input has at decision making is dependent on the weight of the particular input. The weight of an input is a number which when multiplied with the input gives the weighted input. These weighted inputs are then added together and if they exceed a pre-set threshold value, the neuron fires. In mathematical terms, the neuron fires when X1W1 + X2W2 + X3W3 + ... > T.
+        </div><br>
+        <mat-chip-list>
+          <mat-chip color="accent" selected>Weight and Bias</mat-chip>
+          <mat-chip color="accent" selected>Threshold Value</mat-chip>
+        </mat-chip-list>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>
+
+<mat-toolbar color="primary"  class="data-head">
+  <mat-toolbar-row>
+    <span> Dataset Features</span>
+    <span class="cern-spacer"></span>
+    <i class="material-icons">filter_list</i>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-accordion>
+  <mat-expansion-panel >
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+	 Rainfall
+      </mat-panel-title>
+      <mat-panel-description>
+        90.9%
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p> Precipitation amount in a particular area in mm.</p>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Minimum Temperature
+      </mat-panel-title>
+      <mat-panel-description>
+        19.68%
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p> Minimum temperature of a particular area. </p>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Maximum Temperature
+      </mat-panel-title>
+      <mat-panel-description>
+        31.98%
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p> Maximum temperature of a particular area. </p>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Cloud Cover
+      </mat-panel-title>
+      <mat-panel-description>
+        38.89%
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p> Fraction of the sky obscured by clouds when observed from a particular location.</p>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Vapour Pressure
+      </mat-panel-title>
+      <mat-panel-description>
+        21.88%
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p> Pressure exerted by the vapour in thermodynamic equilibrium with its condensed phase at a given temperature. </p>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Reference Crop Evapotranspiration
+      </mat-panel-title>
+      <mat-panel-description>
+        4.70%
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p> Estimation of evapotranspiration from a reference surface. </p>
+  </mat-expansion-panel>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Potential Evapotranspiration
+      </mat-panel-title>
+      <mat-panel-description>
+        6.26%
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p> Amount of evapotranspiration that would occur if sufficient water source is available. </p>
+  </mat-expansion-panel>
+</mat-accordion>
+<mat-card color="primary" class="data-analysis-card">
+  <mat-card-header>
+    <div mat-card-avatar class="cern-header-image"></div>
+    <mat-card-title><strong>Use Case Diagram</strong></mat-card-title>
+    <mat-card-subtitle><strong>Web App Working</strong></mat-card-subtitle>
+    <span class="cern-spacer"></span>
+    <i class="material-icons">bookmark_border</i>
+  </mat-card-header>
+  <img mat-card-image src=":../../../assets/img/homepage/use-case-1.png" alt="Use Case Diagram" style="margin-top: 1px;">
+  <mat-card-content>
+    <mat-tab-group dynamicHeight>
+      <mat-tab label="AgroB">
+        <div class="cern-small-box mat-elevation-z4">
+         Above diagram shows the use case of the various components of our project. It shows how our problem statement connects with various components of our project such as the data set and the model in the main app root component.
+        </div><br>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>
+
+<mat-card color="primary" class="graph-analysis-card">
+  <mat-card-header>
+    <div mat-card-avatar class="cern-header-image"></div>
+    <mat-card-title><strong>Graph Analysis</strong></mat-card-title>
+    <mat-card-subtitle><strong>Monthly regression graphs</strong></mat-card-subtitle>
+    <span class="cern-spacer"></span>
+    <i class="material-icons">bookmark_border</i>
+  </mat-card-header>
+  <img mat-card-image src="../../../assets/img/graphs/features/regression-Bihar-Jan.png" alt="Image of Incomplete values">
+  <mat-card-content>
+    <mat-tab-group dynamicHeight>
+      <mat-tab label="DATASET ANALYSIS">
+        <div class="cern-small-box mat-elevation-z4">
+          After normalizing the dataset using the pandas preprocessing library we move on to make the model in which we call our multilinear regression model function. <br><br>
+          The regression plane that we can see above was produced after using the Mean Squared Error in multi linear regression which divided almost all of the data and minimized the error the most.
+        </div><br>
+        <mat-chip-list>
+          <mat-chip color="accent" selected>MSE</mat-chip>
+          <mat-chip color="accent" selected>Prediction</mat-chip>
+        </mat-chip-list>
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>
+
+</body>
+</html>
